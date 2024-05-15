@@ -1,6 +1,6 @@
 {
-    "name": "smarthomeui",
-    "short_name": "smarthomeui",
+    "name": "smarthelmet",
+    "short_name": "smarthelmet",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
