@@ -1,7 +1,7 @@
 const User = require("../models/user.model.js");
 const ItemHistory = require("../models/items.history.model.js");
-const SolarHistory = require("../models/solar.history.model.js");
-const SolarAverage = require("../models/system.average.model.js");
+const WorkerHistory = require("../models/Worker.history.model.js");
+const WorkerAverage = require("../models/system.average.model.js");
 const Peak = require("../models/peak.model.js");
 const { sendNotification } = require("./notifications.controller");
 const { socketIO } = require("../config/socket.config")();
@@ -27,7 +27,7 @@ const insertItemData = async (req, res) => {
             //Getting user by id
             const user = await User.findById(user_id);
 
-            //Filtering array of solar systems
+            //Filtering array of Worker systems
             const system = user.system.filter(system => {
                 return system.id == system_id;
             })[0];
@@ -93,7 +93,7 @@ const insertSystemData = async (req, res) => {
 
     try {
         //Creating a new document
-        const record = new SolarHistory();
+        const record = new WorkerHistory();
 
         //Assigning document data
         record.system_id = system_id;
@@ -117,7 +117,7 @@ const getSystemData = async (req, res) => {
         const { system_id } = req.params;
 
         //Getting documents accoring to item id
-        const retrieved = await SolarHistory.find({ system_id });
+        const retrieved = await WorkerHistory.find({ system_id });
 
         //Returning retrieved data
         res.status(200).json(retrieved);
@@ -126,13 +126,13 @@ const getSystemData = async (req, res) => {
     }
 };
 
-//Get solar average last week
-const getSolarAvg = async (req, res) => {
+//Get Worker average last week
+const getWorkerAvg = async (req, res) => {
     //Destructuring req body
     const { system_id } = req.body;
     try {
         //Getting data by system id and date
-        const data = await SolarAverage.find({
+        const data = await WorkerAverage.find({
             // day: { day: "wed" },
             system_id: system_id,
         });
@@ -191,7 +191,7 @@ module.exports = {
     getItemData,
     insertSystemData,
     getSystemData,
-    getSolarAvg,
+    getWorkerAvg,
     getItemAvg,
     liveItem,
     liveSystem,
