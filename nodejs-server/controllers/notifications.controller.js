@@ -4,11 +4,11 @@ const sendNotification = ({
     registrationToken,
     systemName,
     itemName,
-    consumption,
+    temperature,
 }) => {
     //Setting up notification structure
     const title = `${systemName}: Peak detected`;
-    const body = `Detected a peak of ${consumption}A in ${itemName}`;
+    const body = `Detected a peak of ${temperature}A in ${itemName}`;
 
     try {
         //Creating a message
@@ -39,12 +39,12 @@ const sendNotification = ({
 };
 
 const testNotification = (req, res) => {
-    const { registrationToken, systemName, itemName, consumption } = req.body;
+    const { registrationToken, systemName, itemName, temperature } = req.body;
     sendNotification({
         registrationToken,
         systemName: systemName,
         itemName: itemName,
-        consumption: consumption,
+        temperature: temperature,
     });
     res.status(200).json({ message: "Notification sent" });
 };
