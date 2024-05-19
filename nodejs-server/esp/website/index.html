@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Station</title>
+    <link rel="shortcut icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+    <script src="vue.min.js"></script>
+    <script src="chart.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Weather Station</h1>
+        <template v-if="connected">
+            <template v-if="devices.length > 0">
+                <div v-for="device in devices" :key="device.id" class="box">
+                    <h2>{{ device.name }}</h2>
+
+                    <measurements-chart v-if="device.temperatureMeasurements.length > 0" label="Temperature (&deg;C)" color="#f4b9b8"
+                        :measurements="device.temperatureMeasurements"></measurements-chart>
+
+                    <measurements-chart v-if="device.humidityMeasurements.length > 0" label="Humidity (%)" color="#85d2d0"
+                        :measurements="device.humidityMeasurements"></measurements-chart>
+
+                    <measurements-chart v-if="device.lightnessMeasurements.length > 0" label="Lightness (%)" color="#887bb0"
+                        :measurements="device.lightnessMeasurements"></measurements-chart>
+                </div>
+            </template>
+            <p v-else>No devices have send measurements yet!</p>
+        </template>
+        <p v-else>Connecting to the Weather Station server...</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

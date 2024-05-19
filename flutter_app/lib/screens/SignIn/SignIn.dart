@@ -107,7 +107,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     child: const Text(
                       "Forgot Password ?",
                       style: TextStyle(
-                          fontSize: 15, decoration: TextDecoration.underline),
+                          fontSize: 15, decoration: TextDecoration.underline),textAlign: TextAlign.left,
                     )),
                 Container(
                   height: MediaQuery.of(context).size.height * .01,

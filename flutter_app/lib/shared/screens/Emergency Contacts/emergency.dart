@@ -26,7 +26,7 @@ class _EmergencyScreenState extends State<EmergencyScreen> {
         backgroundColor: Colors.amber,
         elevation: 0.0,
         leading: const Icon(
-           Icons.call
+          Icons.call
         ),
       ),
       body:  HomeScreenTabs(widget.index),

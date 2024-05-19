@@ -49,7 +49,7 @@ class _TrackingState extends State<Tracking> with TickerProviderStateMixin {
       });
     });
   }
- final Map<String, Marker> _markers = {};
+final Map<String, Marker> _markers = {};
   Future<void> _onMapCreated(GoogleMapController googleMapController) async {
                 
                 setState(() {
