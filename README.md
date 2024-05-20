@@ -107,7 +107,7 @@
 
 
 <!-- Machine Learning -->
-<img src="./readme/title8.svg"/>
+   <img src="./readme/title8.svg"/>
 
 > In Sentinel, machine learning plays an important role in improving worker safety and compliance. By integrating advanced machine learning algorithms, the helmet can perform real-time image detection to ensure workers are wearing their helmets correctly. This automated monitoring system uses trained models to identify and record instances of non-compliance, allowing for immediate corrective actions. Using the yoloV8 latest model admin can monitor through the arduino camera live feed to detect safety measures 
 
@@ -123,6 +123,7 @@
 ###  Precision in Development: Harnessing the Power of Unit Testing:
 
 - This project utilizes thorough unit testing methodologies to uphold code reliability and precision. Through systematic assessment of software components, we establish a robust foundation, promptly detecting and resolving potential issues during development.
+<img src="./readme/unit-testing.jpg"/>
 
 <br><br>
 
