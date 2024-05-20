@@ -95,7 +95,9 @@
   <!-- ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | -->
 
 <br><br>
+> Sentinel safety smart helmet prototype.
 <img src= "./readme/image 2.svg"/>
+> Sentinel safety smart helmet ESP32 schema.
 <img src= "./readme/image 3.svg"/>
 > Sentinel focuses on the safety of workers against the following hazards.
 <img src= "./readme/Features.svg"/>
