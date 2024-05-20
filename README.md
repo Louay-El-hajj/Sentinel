@@ -11,6 +11,7 @@
 ### User Wrokers
 - As a worker, I want to receive alerts about emergencies related to temperature, humidity, gas leaks and underground conditions so that I can take immediate action for my safety.
 -  As a worker, I want to be able to call my personal contacts and my specific emergency contacts in case of an alert so that I can ensure help is provided quickly
+-  As a worker, I want  my personal contacts and my specific emergency contacts to be notified in case of an alert so that I can ensure help is provided quickly
 
 ### Admins Stories
 - As an admin, I want the system to detect if workers are wearing helmets so that I can ensure compliance with safety regulations
