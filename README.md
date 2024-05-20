@@ -128,17 +128,53 @@
 <!-- Future Work -->
 <img src="./readme/title5.svg"/>
 
-> Here are three potential areas for future work in sentinel.
+> This is an example of how you may give instructions on setting up your project locally.
+> To get a local copy up and running follow these simple example steps.
 
-### Enhanced AI Capabilities
-   - Implement advanced AI models for more precise object detection and behavior analysis. This could include detecting unsafe actions or postures, further preventing accidents and ensuring comprehensive safety compliance.
+### Prerequisites
 
-### Integration with IoT Devices
-   - Expand the helmet's functionality by integrating with additional IoT sensors and devices, such as heart rate monitors and fatigue detection sensors. This would provide a more holistic view of a worker's health and safety, enabling real-time health monitoring and early intervention.
+-   npm
+    ```sh
+    npm install npm@latest -g
+    ```
+-   ESP32 (Hardware)
 
-### Predictive Maintenance and Analytics:**
-   - Develop predictive maintenance algorithms to monitor the helmet’s hardware health and alert users when maintenance or replacements are needed. Additionally, enhance analytics capabilities to provide detailed safety reports and insights, helping organizations to identify patterns and improve safety protocols continuously.
+### Installation
 
+1. Clone the repo
+
+    ```sh
+    git clone https://github.com/Louay-El-hajj/Sentinel
+    ```
+
+2. Install [Node.js](https://nodejs.org/en/)
+
+3. Go to nodejs-server directory
+    ```sh
+    cd nodejs-server
+    ```
+4. Install npm packages
+    ```sh
+    npm install
+    ```
+5. Run the server
+    ```sh
+    nodemon .
+    ```
+6. Install [Flutter SDK](https://docs.flutter.dev/get-started/install?gclid=Cj0KCQiAveebBhD_ARIsAFaAvrEXbca0gKEuW9ROxwC86eiEtJUUO5tm-AIIzds41AXpzsjkbESCw2EaAsTwEALw_wcB&gclsrc=aw.ds)
+
+7. Go to flutter_app directory
+    ```sh
+    cd flutter_app
+    ```
+8. Install pub packages
+    ```sh
+    flutter pub get
+    ```
+9. Run flutter_app
+    ```sh
+    flutter run
+    ```
 <br><br>
 
 With ongoing development and refinement, we remain committed to revolutionizing safety standards and shaping the future of workplace environments.
