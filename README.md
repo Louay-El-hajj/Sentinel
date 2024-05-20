@@ -5,35 +5,60 @@
 <!-- project philosophy -->
 <img src="./readme/title2.svg"/>
 
-> Sentinel Freelance: Streamlining Freelancing with Ethereum Blockchain
-> Sentinel Freelance harnesses Ethereum blockchain and smart contracts to revolutionize freelancing. With a focus on transparency, security, and efficiency, our platform ensures a seamless experience for users. From clear project details to secure escrow systems powered by smart contracts, Sentinel empowers freelancers and hiring managers to collaborate confidently. Join us in shaping the future of freelancing, powered by the Ethereum blockchain.
+> Sentinel: Smart Safety Helmet
+> Sentinel is a project that supports cutting-edge technology to enhance worker safety on construction sites. With a focus on proactive safety measures, real-time monitoring, and efficient emergency response, our platform ensures a secure and compliant working environment for all. From object detection to gas monitoring and precise GPS tracking, the Smart Safety Helmet empowers workers and site managers to operate with confidence. Join us in revolutionizing workplace safety with our innovative smart helmet solution.
 
+### User Wrokers
+- As a worker, I want to receive alerts about emergencies related to temperature, humidity, gas leaks and underground conditions so that I can take immediate action for my safety.
+-  As a worker, I want to be able to call my personal contacts and my specific emergency contacts in case of an alert so that I can ensure help is provided quickly
 
-
-### User Stories
--As a hiring manager, I want to create smart contracts for projects, ensuring funds release upon satisfactory completion, minimizing disputes.
--As a freelance developer, I want to agree to automated payment milestones via smart contracts, ensuring fair and prompt compensation.
--As a hiring manager, I want to utilize escrow services in smart contracts to secure project funds, releasing them only upon meeting criteria, preventing fraud.
--As a freelance designer, I want transparent project agreements and transactions stored on blockchain via smart contracts to promote trust and accountability.
+### Admins Stories
+- As an admin, I want the system to detect if workers are wearing helmets so that I can ensure compliance with safety regulations
+- As an admin, I want to record instances of workers not wearing helmets so that I can address safety violations.
+- As an admin, I want to track workers' locations via GPS and indoor tracking so that I can ensure their safety in real-time.
+- As an admin, I want to receive alerts about emergencies so that I can respond promptly and ensure worker safety.
 
 <br><br>
+
 <!-- Tech stack -->
 <img src="./readme/title3.svg"/>
 
-###  Coffee Express is built using the following technologies:
+###  Sentinel is built using the following technologies:
 
-- This project uses the [Flutter app development framework](https://flutter.dev/). Flutter is a cross-platform hybrid app development platform which allows us to use a single codebase for apps on mobile, desktop, and the web.
-- For persistent storage (database), the app uses the [Hive](https://hivedb.dev/) package which allows the app to create a custom storage schema and save it to a local database.
-- To send local push notifications, the app uses the [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) package which supports Android, iOS, and macOS.
-  - 🚨 Currently, notifications aren't working on macOS. This is a known issue that we are working to resolve!
-- The app uses the font ["Work Sans"](https://fonts.google.com/specimen/Work+Sans) as its main font, and the design of the app adheres to the material design guidelines.
+- This project uses the Flutter app development framework. Flutter is a cross-platform hybrid app development platform which allows us to use a single codebase for apps on mobile, desktop, and the web.
+- For the backend, the project utilizes Node.js, a powerful JavaScript runtime built on Chrome's V8 engine that allows for scalable and efficient server-side development.
+- For trusted database foundation, the app uses the MongoDB Atlas that enables you to work with data the way you want easily and effortlessly.
+- The app integrates with Firebase for real-time database, authentication, and cloud storage, providing a robust and scalable backend infrastructure.
+- The project employs a ML framework, enabling real-time helmet detection to ensure worker compliance with safety protocols.
+- To connect the arduino to the server, I used ESP8266 which is a low-cost Wi-Fi microchip with full TCP/IP stack and microcontroller capability produced by Shanghai-based Chinese manufacturer, Espressif Systems.
 
 <br><br>
-<!-- UI UX -->
+
+<!-- Features -->
 <img src="./readme/title4.svg"/>
 
+> Sentinel focuses on the safety of workers against the following hazards.
 
-> We designed Coffee Express using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
+<img src= "./readme/Features.svg"/>
+
+<br><br>
+
+<!-- App Routings -->
+
+<img src="./readme/title5.svg"/>
+
+> Sentinel's support app runs as follows.
+
+<img src = "./readme/Routings.svg"/>
+
+<br><br>
+
+<!-- UI UX -->
+<img src="./readme/title6.svg"/>
+
+
+> I designed Sentinel using wireframes and mockups, iterating on the design until i reached the ideal layout for easy navigation and a seamless user experience.
+
 
 - Project Figma design [figma](https://www.figma.com/file/LsuOx5Wnh5YTGSEtrgvz4l/Purrfect-Pals?type=design&node-id=257%3A79&mode=design&t=adzbABt5hbb91ucZ-1)
 
@@ -43,21 +68,13 @@
 | ---| ---| ---|
 | ![Landing](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) | ![fsdaf](./readme/demo/1440x1024.png) |
 
-<br><br>
-
-<!-- Database Design -->
-<img src="./readme/title5.svg"/>
-
-###  Architecting Data Excellence: Innovative Database Design Strategies:
-
-- Insert ER Diagram here
 
 
 <br><br>
 
 
 <!-- Implementation -->
-<img src="./readme/title6.svg"/>
+<img src="./readme/title7.svg"/>
 
 
 ### User Screens (Mobile)
@@ -77,61 +94,40 @@
 <br><br>
 
 
-<!-- Prompt Engineering -->
-<img src="./readme/title7.svg"/>
-
-###  Mastering AI Interaction: Unveiling the Power of Prompt Engineering:
-
-- This project uses advanced prompt engineering techniques to optimize the interaction with natural language processing models. By skillfully crafting input instructions, we tailor the behavior of the models to achieve precise and efficient language understanding and generation for various tasks and preferences.
-
-<br><br>
-
-<!-- AWS Deployment -->
+<!-- Machine Learning -->
 <img src="./readme/title8.svg"/>
 
-###  Efficient AI Deployment: Unleashing the Potential with AWS Integration:
-
-- This project leverages AWS deployment strategies to seamlessly integrate and deploy natural language processing models. With a focus on scalability, reliability, and performance, we ensure that AI applications powered by these models deliver robust and responsive solutions for diverse use cases.
+> In Sentinel, machine learning plays an important role in improving worker safety and compliance. By integrating advanced machine learning algorithms, the helmet can perform real-time image detection to ensure workers are wearing their helmets correctly. This automated monitoring system uses trained models to identify and record instances of non-compliance, allowing for immediate corrective actions. 
 
 <br><br>
+
 
 <!-- Unit Testing -->
 <img src="./readme/title9.svg"/>
 
 ###  Precision in Development: Harnessing the Power of Unit Testing:
 
-- This project employs rigorous unit testing methodologies to ensure the reliability and accuracy of code components. By systematically evaluating individual units of the software, we guarantee a robust foundation, identifying and addressing potential issues early in the development process.
+- This project utilizes thorough unit testing methodologies to uphold code reliability and precision. Through systematic assessment of software components, we establish a robust foundation, promptly detecting and resolving potential issues during development.
 
 <br><br>
 
 
-<!-- How to run -->
+
+<!-- Future Work -->
 <img src="./readme/title10.svg"/>
 
-> To set up Coffee Express locally, follow these steps:
+> Here are three potential areas for future work in sentinel.
 
-### Prerequisites
+### Enhanced AI Capabilities
+   - Implement advanced AI models for more precise object detection and behavior analysis. This could include detecting unsafe actions or postures, further preventing accidents and ensuring comprehensive safety compliance.
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+### Integration with IoT Devices
+   - Expand the helmet's functionality by integrating with additional IoT sensors and devices, such as heart rate monitors and fatigue detection sensors. This would provide a more holistic view of a worker's health and safety, enabling real-time health monitoring and early intervention.
 
-### Installation
+### Predictive Maintenance and Analytics:**
+   - Develop predictive maintenance algorithms to monitor the helmet’s hardware health and alert users when maintenance or replacements are needed. Additionally, enhance analytics capabilities to provide detailed safety reports and insights, helping organizations to identify patterns and improve safety protocols continuously.
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+<br><br>
 
-1. Get a free API Key at [example](https://example.com)
-2. Clone the repo
-   git clone [github](https://github.com/your_username_/Project-Name.git)
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+With ongoing development and refinement, we remain committed to revolutionizing safety standards and shaping the future of workplace environments.
 
-Now, you should be able to run Coffee Express locally and explore its features.
