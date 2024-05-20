@@ -89,10 +89,10 @@
 
 
 ### User Screens (Mobile)
-| Login screen  | Register screen | Reset Password screen |
+| Login screen  | Register screen | Reset Password screen | |
 | ---| ---| ---| ---|
 | ![Login](./readme/Login.svg) | ![fsdaf](./readme/Signup.svg) | ![ResetPassword](./readme/Reset.svg) | 
-| Add Worker screen  | GPS real time tracking Screen |  Worker Live Data screen | 
+| Add Worker screen  | GPS real time tracking Screen |  Worker Live Data screen ||
   | ![fsdaf](./readme/Add.svg) |![GPS Tracking](./readme/GPS.png) |![Workers](./readme/worker.svg) |
   <!-- ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | -->
 
