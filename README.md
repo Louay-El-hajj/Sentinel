@@ -126,7 +126,7 @@
 
 
 <!-- Future Work -->
-<img src="./readme/title10.svg"/>
+<img src="./readme/title5.svg"/>
 
 > Here are three potential areas for future work in sentinel.
 
