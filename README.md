@@ -49,6 +49,7 @@
 
 <img src="./readme/title10.svg"/>
 <img src= "./readme/Features.svg"/>
+<img src= "./readme/image 2.svg"/>
 <img src= "./readme/image 3.svg"/>
 
 > Sentinel's support app runs as follows.
