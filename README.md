@@ -40,6 +40,9 @@
 > Sentinel focuses on the safety of workers against the following hazards.
 
 <img src= "./readme/Features.svg"/>
+<img src= "./readme/image 3.svg"/>
+
+<br><br>
 
 <br><br>
 
