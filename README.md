@@ -40,13 +40,13 @@
 
 
 
-<br><br>
+<!-- <br><br> -->
 
-<!-- Features -->
+<!-- Features
 <img src="./readme/title4.svg"/>
 
 > Sentinel focuses on the safety of workers against the following hazards.
-<img src= "./readme/Features.svg"/>
+<img src= "./readme/Features.svg"/> -->
 
 
 <br><br>
@@ -54,9 +54,7 @@
 
 <!-- App Routings -->
 
-<img src="./readme/title10.svg"/>
-<img src= "./readme/image 2.svg"/>
-<img src= "./readme/image 3.svg"/>
+
 
 > Sentinel's support app runs as follows.
 
@@ -95,6 +93,13 @@
 | Add Worker screen  | GPS real time tracking Screen |  Worker Live Data screen ||
   | ![fsdaf](./readme/Add.svg) |![GPS Tracking](./readme/GPS.png) |![Workers](./readme/worker.svg) |
   <!-- ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | -->
+
+<br><br>
+<img src="./readme/title10.svg"/>
+<img src= "./readme/image 2.svg"/>
+<img src= "./readme/image 3.svg"/>
+> Sentinel focuses on the safety of workers against the following hazards.
+<img src= "./readme/Features.svg"/>
 
 <!-- ### Admin Screens (Web)
 | Login screen  | Register screen |  Landing screen |
