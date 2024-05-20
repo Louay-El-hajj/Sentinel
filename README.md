@@ -30,7 +30,15 @@
 - For trusted database foundation, the app uses the MongoDB Atlas that enables you to work with data the way you want easily and effortlessly.
 - The app integrates with Firebase for real-time database, authentication, and cloud storage, providing a robust and scalable backend infrastructure.
 - The project employs a ML framework, enabling real-time helmet detection to ensure worker compliance with safety protocols.
-- To connect the arduino to the server, I used ESP8266 which is a low-cost Wi-Fi microchip with full TCP/IP stack and microcontroller capability produced by Shanghai-based Chinese manufacturer, Espressif Systems.
+- To connect the Arduino to the server, I used the ESP32-WROOM-32D, a powerful Wi-Fi and Bluetooth microcontroller from Espressif Systems. This module features a dual-core processor and a full TCP/IP stack, making it ideal for IoT applications and reliable network communication.
+
+
+
+
+
+
+
+
 
 <br><br>
 
@@ -38,17 +46,15 @@
 <img src="./readme/title4.svg"/>
 
 > Sentinel focuses on the safety of workers against the following hazards.
-
+<img src= "./readme/Features.svg"/>
 
 
 <br><br>
 
-<br><br>
 
 <!-- App Routings -->
 
 <img src="./readme/title10.svg"/>
-<img src= "./readme/Features.svg"/>
 <img src= "./readme/image 2.svg"/>
 <img src= "./readme/image 3.svg"/>
 
