@@ -91,13 +91,9 @@
 ### User Screens (Mobile)
 | Login screen  | Register screen | Reset Password screen | Worker Live Data screen |
 | ---| ---| ---| ---|
-| ![Login](./readme/Login.svg) | ![fsdaf](./readme/Signup.svg) | ![ResetPassword](./readme/Reset.svg) | 
-![Workers](./readme/worker.svg) |
+| ![Login](./readme/Login.svg) | ![fsdaf](./readme/Signup.svg) | ![ResetPassword](./readme/Reset.svg) | ![Workers](./readme/worker.svg) |
 | Home screen  | Menu Screen | Order Screen | Checkout Screen |
-| ![GPS Tracking](./readme/GPS.svg) | 
-![fsdaf](https://placehold.co/900x1600) | 
-![fsdaf](https://placehold.co/900x1600) | 
-![fsdaf](https://placehold.co/900x1600) |
+| ![GPS Tracking](./readme/GPS.svg) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
 
 <!-- ### Admin Screens (Web)
 | Login screen  | Register screen |  Landing screen |
