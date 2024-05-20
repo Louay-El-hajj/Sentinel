@@ -39,8 +39,7 @@
 
 > Sentinel focuses on the safety of workers against the following hazards.
 
-<img src= "./readme/Features.svg"/>
-<img src= "./readme/image 3.svg"/>
+
 
 <br><br>
 
@@ -48,7 +47,9 @@
 
 <!-- App Routings -->
 
-<img src="./readme/title5.svg"/>
+<img src="./readme/title10.svg"/>
+<img src= "./readme/Features.svg"/>
+<img src= "./readme/image 3.svg"/>
 
 > Sentinel's support app runs as follows.
 
