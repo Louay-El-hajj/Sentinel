@@ -91,9 +91,9 @@
 ### User Screens (Mobile)
 | Login screen  | Register screen | Landing screen | Loading screen |
 | ---| ---| ---| ---|
-| ![Login](./readme/Login.svg) | ![fsdaf](./readme/Signup.svg) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
+| ![Login](./readme/Login.svg) | ![fsdaf](./readme/Signup.svg) | ![Reset Password](./readme/Reset password.svg) | ![Workers](./readme/LiPhone 14 & 15 Pro Max - 1.svg) |
 | Home screen  | Menu Screen | Order Screen | Checkout Screen |
-| ![Landing](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
+| ![GPS Tracking](./readme/GPS.svg) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) | ![fsdaf](https://placehold.co/900x1600) |
 
 <!-- ### Admin Screens (Web)
 | Login screen  | Register screen |  Landing screen |
